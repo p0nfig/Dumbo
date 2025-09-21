@@ -1,1 +1,8 @@
 print("Hello World")
+x = input("Insert your name: ")
+y = input("Insert your age: ")
+
+def dumbo_function(name, age):
+    print("Hello " + name + ", you are " + age + " years old!")
+
+print(dumbo_function(x, y))
