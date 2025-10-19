@@ -1,0 +1,142 @@
+#numbers = [10, 5, 7, 2, 1]
+#print("Original list content:", numbers)  
+# Printing original list content.
+
+#numbers[0] = 111
+#print("New list content: ", numbers)  
+# Current list content, we add 111 at position 0
+
+#numbers[1] = numbers[4] # Copying value of the fifth element to the second.
+
+#print(numbers[0]) # Accessing the list's first element.
+
+# print("\nList length:", len(numbers))  # Printing the list's length.
+
+#del numbers[1]
+# Deleting the second element of the list.
+
+#hat_list = [1, 2, 3, 4, 5] 
+# This is an existing list of numbers hidden in the hat.  
+# # Step 1: write a line of code that prompts the user # to replace the middle number with an integer number entered by the user. 
+# user_number= int(input("Replace the middle number of the list with an integer: ")) 
+# hat_list[2]=user_number
+# Step 2: write a line of code that removes the last element from the list.  
+# del hat_list[-1]  
+# # Step 3: write a line of code that prints the length of the existing list.  
+# print(len(hat_list))  
+# print(hat_list)
+
+#numbers = [111, 7, 2, 1]
+#print(len(numbers))
+#print(numbers)
+#numbers.append(4)
+#print(len(numbers))
+#print(numbers)
+
+#numbers.insert(0, 222)
+#print(len(numbers))
+#print(numbers)
+
+#my_list = []  # Creating an empty list.
+#for i in range(5):
+    #my_list.append(i + 1)
+#print(my_list)
+
+#my_list = [10, 1, 8, 3, 5]
+#total = 0
+#for i in range(len(my_list)):
+    #total += my_list[i]
+#print(total)
+
+#Swap the elements of a list
+#my_list = [10, 1, 8, 3, 5]
+#length = len(my_list)
+#for i in range(length // 2):
+    #my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
+#print(my_list)
+
+#step 1 beatles = [] 
+#beatles.append("John Lennon") 
+#beatles.append("Paul McCartney") 
+#beatles.append("George Harrison")  
+#for i in range(0,2): 
+    #a = input("Enter the member ") 
+    #beatles.append(a)
+#print("Step 3:", beatles)  
+#beatles.insert(0,"Ringo Starr")
+
+#my_list = [8, 10, 6, 2, 4]  # list to sort
+#swapped = True  # It's a little fake, we need it to enter the while loop.
+
+#while swapped:
+    #swapped = False  # no swaps so far
+    #for i in range(len(my_list) - 1):
+        #if my_list[i] > my_list[i + 1]:
+            #swapped = True  # a swap occurred!
+            #my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+#print(my_list)
+
+#my_list = [8, 10, 6, 2, 4]
+#my_list.sort()
+#print(my_list)
+
+#my_list = [10, 8, 6, 4, 2]
+#new_list = my_list[1:3]
+#print(new_list)
+
+#my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+#largest = my_list[0]
+#print(largest)
+#for i in range(1, len(my_list)):
+    #if my_list[i] > largest:
+        #largest = my_list[i]
+#print(largest)
+
+#my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#to_find = 5
+#found = False
+#for i in range(len(my_list)):
+    #found = my_list[i] == to_find
+    #if found:
+        #break
+#if found:
+    #print("Element found at index", i)
+#else:
+    #print("absent")
+
+#drawn = [5, 11, 9, 42, 3, 49]
+#bets = [3, 7, 11, 42, 34, 49]
+#hits = 0
+#for number in bets:
+    #if number in drawn:
+        #hits += 1
+#print(hits)
+
+#my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+#new_list = []  
+#for i in my_list: 
+    #if i not in new_list: 
+        #new_list.append(i)         
+#print("The list with unique elements only:") 
+#print(new_list)
+
+#board = []
+#for i in range(8):
+    #row = ["EMPTY" for i in range(8)]
+    #board.append(row)
+#print(board)
+
+#rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)] # 3 buildings, 15 floors, 20 rooms
+#rooms[1][9][13] = True # booking a room, second building, tenth floor, fourteenth room
+# Check if there are any vacancies on the 15th floor of the third building:
+#vacancy = 0
+#for room_number in range(20):
+    #if not rooms[2][14][room_number]:
+        #vacancy += 1
+#print(vacancy)
+
+#vals = [0,1,2]
+#vals.insert(0,1)
+#print(vals)
+#del vals[1]
+#print(vals)

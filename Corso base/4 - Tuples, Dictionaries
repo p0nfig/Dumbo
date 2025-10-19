@@ -1,0 +1,58 @@
+#dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+#words = ['cat', 'lion', 'horse']
+#for word in words:
+    #if word in dictionary:
+        #print(word, "->", dictionary[word])
+    #else:
+        #print(word, "is not in dictionary")
+
+
+#dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+#for key in dictionary.keys():
+    #print(key, "->", dictionary[key])
+#for key in sorted(dictionary.keys()):
+    #print(key, "->", dictionary[key])
+
+#Adding a new key-value pair
+#dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+#dictionary['cat'] = 'minou'
+#print(dictionary)
+
+#Adding a new key and value
+#dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+#dictionary['swan'] = 'cygne'
+#print(dictionary)
+
+#We can also use the update function or del function
+#To remove the last item in a dictionary, we can use the popitem() function
+
+#school_class = {}
+#while True:
+    #name = input("Enter the student's name: ")
+    #if name == '':
+        #break
+    #score = int(input("Enter the student's score (0-10): "))
+   #if score not in range(0, 11):
+        #break
+    #if name in school_class:
+        #school_class[name] += (score,)
+    #else:
+        #school_class[name] = (score,)
+#for name in sorted(school_class.keys()):
+    #adding = 0
+    #counter = 0
+    #for score in school_class[name]:
+        #adding += score
+        #counter += 1
+    #print(name, ":", adding / counter)
+
+#try:
+    #value = int(input('Enter a natural number: '))
+    #print('The reciprocal of', value, 'is', 1/value)        
+#except ValueError:
+    #print('I do not know what to do.')    
+#except ZeroDivisionError:
+    #print('Division by zero is not allowed in our Universe.')    
+#except:
+    #print('Something strange has happened here... Sorry!')
+
