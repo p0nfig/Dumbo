@@ -4,7 +4,7 @@
     #print("One...")
     #if not wishes:
         #return
-    #rint("Happy New Year!")
+    #print("Happy New Year!")
 
 #happy_new_year()
 # If wishes = False, the function will only count down without printing the New Year wish.
